@@ -32,7 +32,39 @@
         </div>
     </nav>
     <main>
-        <div id="main-container" class="container contact-form">
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>We are excited to hear from you!</p>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <div class="column">
+                        <form action="/action_page.php">
+                            <li><label for="fname">First Name</label></li>
+                            <li><input type="text" id="fname" name="firstname" placeholder="Your name.."></li>
+                            <li><label for="lname">Last Name</label></li>
+                            <li> <input type="text" id="lname" name="lastname" placeholder="Your last name.."></li>
+                            <li><label for="country">Country</label></li>
+                            <li><select id="country" name="country"></select></li>
+                                <!-- <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option> -->
+                            </select>
+                            <!-- <label for="subject">Subject</label> -->
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:70px"></textarea>
+                            <!-- <input type="submit" value="Submit"> -->
+                        </form>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+
+        <!-- <div id="main-container" class="container contact-form">
             <section class="main-section">
                 <h1>Contact</h1>
 
@@ -57,7 +89,7 @@
 
             </section>
 
-        </div>
+        </div> -->
     </main>
     <footer class="card-footer bg-light footer-font-style text-muted footer-position"><a
             href="https://github.com/KTurnage">Github</a>
