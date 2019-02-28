@@ -5,3 +5,23 @@ body {
 #links {
     margin-left: 76%;
 }
+
+.bg-light {
+    background-color: blue !important;
+}
+
+.work > img {
+    width: 150px;
+    height: auto;
+}
+
+main {
+    height: 85vh;
+    overflow: hidden;
+}
+
+.contact-form {
+    background-color: blueviolet;
+    width: 60%;
+    margin: 50px;
+}
